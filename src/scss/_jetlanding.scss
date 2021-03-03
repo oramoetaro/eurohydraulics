@@ -1,0 +1,317 @@
+$main-color: tomato;
+$alt-color: #e9eaec;
+$dark-color: #343A3F;
+$secondary-color:"";
+
+body {
+  font-size: 19px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+}
+
+a {
+  text-decoration: none;
+  color: $main-color;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $main-color;;
+}
+
+section {
+  padding: 35px 15px;
+}
+
+section:nth-child(odd):not(.bg-main) {
+  background-color: $alt-color;
+}
+
+.hidden {
+  display: none;
+}
+
+.bg-alt {
+  background-color: $alt-color;
+}
+
+// Header Styling
+
+.navbar {
+  font-size: 15px;
+}
+
+.divider {
+  border: 1px solid $main-color;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: $main-color;
+}
+
+// Header Section Style
+header {
+  background-color: $dark-color;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+// Hero Section Styling
+#hero {
+  padding: 120px 0 100px;
+}
+
+.bg-main {
+  background-color: $main-color;
+}
+
+// Web Form 1
+.webform-1>.form-body {
+  color: grey;
+  background-color: white;
+}
+
+.webform-1 button {
+  color: white;
+  background-color: $main-color;
+}
+
+.webform-1 button:hover {
+  color: white;
+  background-color: darken($main-color, 10);
+}
+
+.webform-1 svg {
+  color: $main-color;
+}
+
+// Web Form 2
+.webform-2>.form-body {
+  color: white;
+  background-color: rgba($main-color, 0.6);
+}
+
+// Brands Style
+#brands {
+  padding: 30px 15px;
+}
+
+// Services styling
+#services .card-text {
+  font-size: 16px;
+}
+
+// Map Styling
+#map {
+  height: 350px;
+}
+
+// Footer Styling
+footer a,
+footer a:hover {
+  color: white;
+}
+
+// Copyright Styling
+#copyright {
+  background-color: #1f2327;
+}
+
+#copyright a,
+#copyright a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+.text-main {
+  color: $main-color;
+}
+
+.bg-main {
+  background-color: $main-color;
+}
+
+.secondary-color {
+  color: $secondary-color;
+}
+
+.bg-secondary {
+  background-color: $secondary-color;
+}
+
+// ----------------------------
+// Whatsapp Button Style
+// ----------------------------
+
+.float-contact {
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+.phone-btn,
+.whatsapp-btn {
+  display: block;
+  height: 65px;
+  width: 65px;
+}
+
+.whatsapp-btn {
+  background-color: #00a955;
+}
+
+.phone-btn {
+  background-color: #c94c4c;
+}
+
+// General Settings
+body {
+  position: relative;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: hsl(0, 0%, 30%)
+}
+
+// Hero Section Style
+#hero {
+  background-image: url('../../assets/img/bg.jpeg');
+  background-position: top center;
+  background-size: cover;
+}
+
+.hero-cover {
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+}
+
+// Testimonail Section Style
+.owl-testimonial .owl-item {
+  padding: 0 15px;
+}
+
+.owl-testimonial .owl-stage {
+  margin-bottom: 15px;
+}
+
+// Owl Carousel Style
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: $main-color;
+}
+
+.owl-theme .owl-prev:not(.disabled),
+.owl-theme .owl-next:not(.disabled),
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: $main-color;
+}
+
+// Photo Gallery Section Style
+.gallery-item-cover {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  background-color: transparent;
+}
+
+// Whatsapp Button Style
+.whats-float-btn {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 100;
+  padding: 0;
+  background-color: #28a745;
+  font-size: 40px;
+  border-radius: 50%;
+  color: white;
+  width: 60px;
+  height: 60px;
+  box-shadow: 2px 3px 15px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 3px 15px 2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 2px 3px 15px 2px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 2px 3px 15px 2px rgba(0, 0, 0, 0.6);
+}
+
+.whats-float-btn::before {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Font Awesome 5 Brands';
+  content: '\f232';
+  display: none;
+}
+
+// Map Style
+#ubicacion {
+  height: 350px;
+}
+
+@media only screen and (min-width: 576px) {
+  #hero {
+    padding: 125px 0 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #hero {
+    padding: 130px 0 60px;
+  }
+
+  section {
+    padding: 45px 15px;
+  }
+
+  .float-contact {
+    bottom: 40px;
+    right: 40px;
+    ;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #hero {
+    padding: 150px 0 100px;
+  }
+
+  header {
+    background-color: transparent;
+  }
+
+  section {
+    padding: 60px 15px;
+  }
+
+  .gallery-item-cover:hover {
+    color: white;
+    background-color: rgba($main-color, 0.4);
+    transition: all 0.4s ease;
+  }
+}
+
+.grecaptcha-badge {
+  display: none;
+}
+
+#action {
+  padding: 30px;
+}
+
+.page-link,
+.page-link:hover {
+  color: $main-color;
+}

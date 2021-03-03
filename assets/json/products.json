@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "category": 1,
+      "image": 1,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    },
+    {
+      "category": 1,
+      "image": 2,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    },
+    {
+      "category": 1,
+      "image": 3,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    },
+    {
+      "category": 1,
+      "image": 4,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    },
+    {
+      "category": 1,
+      "image": 5,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    },
+    {
+      "category": 1,
+      "image": 6,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    },
+    {
+      "category": 1,
+      "image": 1,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    },
+    {
+      "category": 1,
+      "image": 2,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    },
+    {
+      "category": 1,
+      "image": 3,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    },
+    {
+      "category": 1,
+      "image": 4,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    },
+    {
+      "category": 1,
+      "image": 5,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    },
+    {
+      "category": 1,
+      "image": 6,
+      "title": "producto",
+      "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "price": 2345
+    }
+  ]
+}

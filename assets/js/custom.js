@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   'use strict';
 
-  const analyticsId = "UA-91704922-1";
+  const analyticsId = "G-ZB10K052CP";
   const recaptchaSiteKey = "6Leh7s0UAAAAAKYppl9nk1ZUdi1DimyEj049GaMS";
 
   const $document = $(document);
@@ -105,9 +105,9 @@ $(document).ready(function () {
       const text = $(this).attr("data-text");
       const url = urlBase + "?phone=" + phone + "&text=" + text;
 
-      gtag('event', 'send', {
-        'event_category': 'contact',
-        'event_label': 'whatsapp'
+      gtag('event', 'generate_lead', {
+        'currency': 'MXN',
+        'value': 0
       });
       location.href = url;
     });
@@ -283,9 +283,9 @@ $(document).ready(function () {
                 .removeClass("was-validated");
               $(".success", $form).show("slow")
                 .delay(6000).hide("slow");
-              gtag('event', 'send', {
-                'event_category': 'contact',
-                'event_label': 'form'
+              gtag('event', 'generate_lead', {
+                'currency': 'MXN',
+                'value': 0
               });
             });
           }
